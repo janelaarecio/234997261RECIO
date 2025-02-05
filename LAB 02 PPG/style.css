@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFE4E1;
+    color: #333;
+}
+
+nav {
+    background-color: #FFB6C1;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, .active {
+    background-color: #FF69B4;
+}
+
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-7130560.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #FFB6C1;
+    color: #333;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #df87b3;
+}
+
+.section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #FFB6C1;
+    padding: 12px 20px;
+    border: none;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #df87b3;
+}
+
+div.service {
+    line-height: 2.5;
+  }
+
+p.welcome {
+    line-height: 2.5;
+ }
+
+ p.services {
+    line-height: 2.5;
+ }
